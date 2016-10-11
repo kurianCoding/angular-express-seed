@@ -24,4 +24,7 @@ angular.module('myApp.controllers', []).
   controller('MyCtrl2', function ($scope) {
     // write Ctrl here
 
-  });
+  }).
+ controller("helloController",function($scope){
+	 $scope.itemList=["apple","angular","rain","night","tiller","labour","router"];
+ });
